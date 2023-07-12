@@ -22,7 +22,7 @@ De programma's die je nodig hebt zijn (en commando's voor macOS):
 - uglifyjs (`npm install`) (npm install uglify-js)
 
 
-Dan kan je de site lokaal zien door `./preview.sh` uit te voeren, deze exporteert de site automatisch opnieuw bij veranderingen.
+Dan kan je de site lokaal zien door `./preview.sh` uit te voeren in een bash terminal (dus niet in zsh!), deze exporteert de site automatisch opnieuw bij veranderingen.
 De site zal beschikbaar zijn op http://localhost:8000
 
 Als je klaar bent om de site te publiceren kan je `make export` draaien, en zal de `app` map de productiecode bevatten.
