@@ -19,7 +19,8 @@ De programma's die je nodig hebt zijn (en commando's voor macOS):
 - python3 (`brew install python3`, alleen nodig voor `./preview.sh`)
 - elm ([installatie instructies op de Elm site][elm-install])
 - npm voor uglifyjs en elm-format (`brew install nodejs`)
-- uglifyjs (`npm install`)
+- uglifyjs (`npm install`) (npm install uglify-js)
+
 
 Dan kan je de site lokaal zien door `./preview.sh` uit te voeren, deze exporteert de site automatisch opnieuw bij veranderingen.
 De site zal beschikbaar zijn op http://localhost:8000
